@@ -1,0 +1,113 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+#startScreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('start_image.png') no-repeat center center;
+  background-size: cover;
+}
+
+#chatScreen {
+  display: none;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url('chat_background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#chatLog {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+
+.chatMsg {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.fromH {
+  justify-content: flex-start;
+}
+
+.fromMe {
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+.fromH img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.msgText {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 8px 12px;
+  border-radius: 15px;
+  max-width: 70%;
+  word-break: break-word;
+}
+
+.fromMe .msgText {
+  background: #a0e7e5;
+}
+
+.timeStamp {
+  position: relative;
+  top: 4px;
+  font-size: 0.7em;
+  color: #666;
+  flex-shrink: 0;
+  width: 40px;
+  text-align: center;
+}
+
+.fromH .timeStamp {
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+.fromMe .timeStamp {
+  margin-right: 8px;
+  margin-left: 0;
+}
+
+#answerOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.answerBtn {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.answerBtn:hover {
+  background-color: #5248c8;
+}
