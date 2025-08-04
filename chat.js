@@ -8,25 +8,25 @@ const script = [
   { from: "H", text: "잘 잤어요?" },
   {
     options: [
-      { text: "웅ㅎㅎ" },
+      { text: "웅 ㅎㅎ" },
       { text: "웅 너는?" }
     ]
   },
-  { from: "H", text: "나도 오랜만에 너무 잘 잤닿ㅎ" },
+  { from: "H", text: "나도 오랜만에 너무 잘 잤다" },
   { from: "H", text: "드디어" },
-  { from: "H", text: "오늘 앨범 발매..." },
+  { from: "H", text: "곧 앨범 발매..." },
   { from: "H", text: "너무 기대돼.." },
   {
     options: [
       { text: "나두 너무 떨려" },
-      { text: "빨리 듣고 싶다" }
+      { text: "빨리 듣고 싶어" }
     ]
   },
   { from: "H", text: "난 지금도 듣는중ㅎㅎ" },
   {
     options: [
       { text: "뭐야! 나도 들을래ㅜㅜ" },
-      { text: "너만 듣기 있어?ㅠ" }
+      { text: "너만 듣기 있어?" }
     ]
   },
   { from: "H", text: "부럽지 ㅎㅎ" }
