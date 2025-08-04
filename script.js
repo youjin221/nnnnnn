@@ -12,7 +12,7 @@ const script = [
       { text: "웅 너는?" }
     ]
   },
-  { from: "H", text: "나도 오랜만에 너무 잘 잤다" },
+  { from: "H", text: "나도 오랜만에 잘 잤다" },
   { from: "H", text: "드디어" },
   { from: "H", text: "곧 앨범 발매..." },
   { from: "H", text: "너무 기대돼.." },
